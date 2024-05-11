@@ -1,0 +1,101 @@
+
+    /* Global styles for the page */
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #262626;
+    line-height: 1.5;
+}
+/* Styles for the container holding the login form */
+.container {
+    max-width: 25em;
+    margin: 0 auto;
+    padding: 4em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin-top: 4.5em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Styles for the logo image and text */
+.logo {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    display: flex;
+
+}
+/* sets the maximum width of the img */
+.logo img {
+    max-width: 200px;
+    transition: transform 0.4s;
+}
+
+/* System title */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #262626;
+}
+
+/* Styles for the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+/* style all labels for the input */
+label {
+    margin-bottom: 10px;
+    color: #262626;
+    font-weight: 600;
+}
+
+/* inputs like ID PASS and Button */
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type="text"]::placeholder,  /*placeholder is the text inside the input before clicked*/
+input[type="password"]::placeholder {
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+}
+/* login button*/
+input[type="submit"] {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+/* when mouse over change color to dark blue */
+input[type="submit"]:hover {
+    background-color: #04082c;
+}
+
+/* when clicked it moves the button down 2PX */
+input[type="submit"]:active {
+    transform: translateY(2px);
+}
+
+/* Style for when user makes wrong login */
+#errorMessage {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
