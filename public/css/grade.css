@@ -1,0 +1,146 @@
+/* Global styles for the page */
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #262626;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: calc(100% - 200px);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    z-index: 9999;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.system_title{
+    margin-left: auto;
+    margin-right: 6em;
+    font-size: medium;
+}
+
+.announcements {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.main {
+    position: relative;
+    top: 50px;
+    left: 25em;
+    bottom: 0;
+    right: 10em;
+}
+
+.message {
+    border-left: 4px solid #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    width: 75%;
+}
+
+.message .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.message .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.message .publish-date {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.message .deadline {
+    font-weight: bold;
+    color: red;
+    margin-top: 5px;
+}
+
+.label {
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.messageContent {
+    margin-bottom: 10px;
+}
+
+.popup {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    z-index: 9999;
+    width: 72.9%;
+}
+
+.popup.show {
+    display: block;
+}
+
+.notification-sign {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.new-sign {
+    background-color: #007bff;
+}
+
+.notification-row.pushed {
+    transform: translateY(40px);
+}
+
+/* Specific styles for the grades table */
+table {
+    margin-left: 1em;
+    border-collapse: collapse;
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 3em;
+}
+
+tr {
+    background-color: #fff;
+}
+
+#gradesTable tr:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td:not(:last-child) {
+    padding-left: 1em;
+    padding-right: 20px;
+    height: 3em;
+}
