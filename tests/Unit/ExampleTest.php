@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace SisLaravelMain\tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 

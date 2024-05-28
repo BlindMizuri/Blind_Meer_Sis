@@ -1,0 +1,14 @@
+<?php
+
+declare(strict_types=1);
+
+namespace SisLaravelMain\vendor\nunomaduro\termwind\src\Exceptions;
+
+use InvalidArgumentException;
+
+/**
+ * @internal
+ */
+final class InvalidChild extends InvalidArgumentException
+{
+}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace SisLaravelMain\tests;
 
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Foundation\Application;

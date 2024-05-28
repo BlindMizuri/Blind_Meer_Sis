@@ -163,11 +163,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
+        \SisLaravelMain\app\Providers\AppServiceProvider::class,
+        \SisLaravelMain\app\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        \SisLaravelMain\app\Providers\EventServiceProvider::class,
+        \SisLaravelMain\app\Providers\RouteServiceProvider::class,
     ])->toArray(),
 
     /*
