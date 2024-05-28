@@ -1,0 +1,77 @@
+/* Global styles for the page */
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #262626;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #262626;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.selected-courses-link {
+    margin-left: 50%;
+    text-align: center;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}

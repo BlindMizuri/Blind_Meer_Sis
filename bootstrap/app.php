@@ -28,17 +28,29 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
+<<<<<<< HEAD
     \SisLaravelMain\app\Http\Kernel::class
+=======
+    App\Http\Kernel::class
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
+<<<<<<< HEAD
     \SisLaravelMain\app\Console\Kernel::class
+=======
+    App\Console\Kernel::class
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
+<<<<<<< HEAD
     \SisLaravelMain\app\Exceptions\Handler::class
+=======
+    App\Exceptions\Handler::class
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 );
 
 /*

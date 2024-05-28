@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 namespace SisLaravelMain\database\factories;
+=======
+namespace Database\Factories;
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
 /**
+<<<<<<< HEAD
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\SisLaravelMain\app\Models\User>
+=======
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
  */
 class UserFactory extends Factory
 {

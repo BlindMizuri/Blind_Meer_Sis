@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace SisLaravelMain\app\Providers;
+=======
+namespace App\Providers;
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -17,7 +21,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
+<<<<<<< HEAD
     public const HOME = '/home';
+=======
+    public const HOME = '/dashboard';
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.

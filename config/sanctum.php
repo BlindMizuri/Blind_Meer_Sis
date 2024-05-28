@@ -76,8 +76,13 @@ return [
 
     'middleware' => [
         'authenticate_session' => Laravel\Sanctum\Http\Middleware\AuthenticateSession::class,
+<<<<<<< HEAD
         'encrypt_cookies' => \SisLaravelMain\app\Http\Middleware\EncryptCookies::class,
         'verify_csrf_token' => \SisLaravelMain\app\Http\Middleware\VerifyCsrfToken::class,
+=======
+        'encrypt_cookies' => App\Http\Middleware\EncryptCookies::class,
+        'verify_csrf_token' => App\Http\Middleware\VerifyCsrfToken::class,
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
     ],
 
 ];

@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 namespace SisLaravelMain\app\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -42,4 +43,27 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+=======
+namespace App\Models;
+
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+
+class Student extends Authenticatable
+{
+    use Notifiable;
+
+    protected $fillable = [
+        'student_id', 'password',
+    ];
+
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+
+    public function getAuthIdentifierName()
+    {
+        return 'student_id';
+    }
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 }

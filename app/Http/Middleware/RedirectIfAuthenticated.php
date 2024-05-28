@@ -1,8 +1,14 @@
 <?php
 
+<<<<<<< HEAD
 namespace SisLaravelMain\app\Http\Middleware;
 
 use SisLaravelMain\app\Providers\RouteServiceProvider;
+=======
+namespace App\Http\Middleware;
+
+use App\Providers\RouteServiceProvider;
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

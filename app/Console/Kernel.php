@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 namespace SisLaravelMain\app\Console;
+=======
+namespace App\Console;
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

@@ -2,6 +2,7 @@
 
 return [
 
+<<<<<<< HEAD
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
@@ -112,4 +113,34 @@ return [
 
     'password_timeout' => 10800,
 
+=======
+    'defaults' => [
+        'guard' => 'web',
+        'passwords' => 'users', // Adjust as necessary
+    ],
+
+    'guards' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'students',
+        ],
+    ],
+
+    'providers' => [
+        'students' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Login::class,
+        ],
+    ],
+
+    'passwords' => [
+        'students' => [
+            'provider' => 'students',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+    ],
+
+    'password_timeout' => 10800,
+>>>>>>> b3251bc7753aafdbd99fc811f81d2827256b9882
 ];
